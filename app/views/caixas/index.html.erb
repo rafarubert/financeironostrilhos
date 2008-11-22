@@ -1,0 +1,4 @@
+<%=select_tag "contas", options_from_collection_for_select(@contas, :id, :title)%>
+<div id="contas_fixas">
+	<%=render :partial=>"/drive_fixeds/lista_gastos", :locals=>{:drive_fixeds=>@drive_fixeds}%>
+</div>

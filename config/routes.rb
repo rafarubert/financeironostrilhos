@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :drivers
-
+  map.resources :caixas
+  
   map.resources :drive_fixeds
 
   map.resources :categories

@@ -1,0 +1,18 @@
+<table>
+  <tr>
+  	<th>&nbsp;</th>
+    
+    <th>Title</th>
+    <th>Value</th>
+    <th>Day limit</th>
+    <th>Date limit</th>
+  </tr>
+<% total = 0%>
+<% for drive_fixed in drive_fixeds %>
+ 	<%=render :partial=>"/drive_fixeds/driver_fixed", :locals=>{:drive_fixed=>drive_fixed}%>
+	<% total = total + drive_fixed.valor
+	end %>
+	<tr><td></td><td></td><td  style="border-top:1px solid;"><%=total%></td><td></td></tr>
+</table>
+
+<br />

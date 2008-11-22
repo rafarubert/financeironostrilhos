@@ -3,7 +3,7 @@ class DriveFixedsController < ApplicationController
   # GET /drive_fixeds.xml
   def index
     @drive_fixeds = DriveFixed.find(:all)
-
+    @contas = Account.find(:all, :conditions=>["user_id = ?", self.current_user.id])
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @drive_fixeds }
@@ -86,6 +86,12 @@ class DriveFixedsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(drive_fixeds_url) }
       format.xml  { head :ok }
+      format.js
     end
+  end
+  
+  def filter_account
+   @driver_fixeds = DriveFixed.find(:all, :conditions=>[" account_id = ?", params[:contas]])
+   render :partial=>"lista_gastos", :locals=>{:drive_fixeds=>@driver_fixeds} 
   end
 end

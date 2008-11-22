@@ -1,35 +1,13 @@
 <div class="box">
 <h2>Listing drive_fixeds</h2>
 <div class="boxContent">
-
-
-<table>
-  <tr>
-    <th>Category</th>
-    <th>Account</th>
-    <th>Title</th>
-    <th>Value</th>
-    <th>Day limit</th>
-    <th>Date limit</th>
-  </tr>
-
-<% for drive_fixed in @drive_fixeds %>
-  <tr>
-    <td><%=h drive_fixed.category_id %></td>
-    <td><%=h drive_fixed.account_id %></td>
-    <td><%=h drive_fixed.title %></td>
-    <td><%=h drive_fixed.value %></td>
-    <td><%=h drive_fixed.day_limit %></td>
-    <td><%=h drive_fixed.date_limit %></td>
-    <td><%= link_to 'Show', drive_fixed %></td>
-    <td><%= link_to 'Edit', edit_drive_fixed_path(drive_fixed) %></td>
-    <td><%= link_to 'Destroy', drive_fixed, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
+	<% form_remote_tag :url=>{:controller=>"drive_fixeds", :action=>"filter_account"}, :update=>"resultado" do -%>
+		<%=select_tag 'contas', options_from_collection_for_select(@contas, :id, :title)%>
+		<%=submit_tag "filtrar"%>
+	<% end -%>
+<div id="resultado">
+<%=render :partial=>"lista_gastos", :locals=>{:drive_fixeds=>@drive_fixeds}%>
+</div>
 <%= link_to 'New drive_fixed', new_drive_fixed_path %>
 </div>
 </div>

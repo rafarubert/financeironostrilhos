@@ -1,0 +1,12 @@
+ 
+ <tr id="<%=dom_id(drive_fixed)%>">
+ 	<td align="center"><%=image_tag drive_fixed.entry ? "receber.gif" : "pagar.gif", :size=>"20x20" %></td>
+   
+    <td><%=h drive_fixed.title %></td>
+    <td><%=h drive_fixed.value %></td>
+    <td><%=h drive_fixed.day_limit %></td>
+    <td><%=h drive_fixed.date_limit %></td>
+    <td><%= link_to 'Show', drive_fixed %></td>
+    <td><%= link_to 'Edit', edit_drive_fixed_path(drive_fixed) %></td>
+    <td><%= link_to_remote 'Destroy', :url=>drive_fixed_url(drive_fixed), :confirm => 'Are you sure?', :method => :delete %></td>
+</tr>

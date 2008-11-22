@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.xml
   def index
-    @categories = Category.find(:all)
+    @categories = self.current_user.categories
 
     respond_to do |format|
       format.html # index.html.erb
