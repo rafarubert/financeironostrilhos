@@ -1,0 +1,17 @@
+<div class="box">
+<h2>Nova Conta</h2>
+<div class="boxContent">
+<% form_for(@account) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :titulo %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit "Cadastrar" %>
+  </p>
+<% end %>
+<%= link_to 'Voltar', accounts_path %>
+</div>
+</div>

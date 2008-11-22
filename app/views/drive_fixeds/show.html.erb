@@ -1,0 +1,33 @@
+<p>
+  <b>Category:</b>
+  <%=h @drive_fixed.category_id %>
+</p>
+
+<p>
+  <b>Account:</b>
+  <%=h @drive_fixed.account_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @drive_fixed.title %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%=h @drive_fixed.value %>
+</p>
+
+<p>
+  <b>Day limit:</b>
+  <%=h @drive_fixed.day_limit %>
+</p>
+
+<p>
+  <b>Date limit:</b>
+  <%=h @drive_fixed.date_limit %>
+</p>
+
+
+<%= link_to 'Edit', edit_drive_fixed_path(@drive_fixed) %> |
+<%= link_to 'Back', drive_fixeds_path %>

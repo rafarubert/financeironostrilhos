@@ -1,0 +1,41 @@
+<h1>New drive_fixed</h1>
+
+<% form_for(@drive_fixed) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :category_id %><br />
+    <%= f.select :category_id, @categories %>
+  </p>
+  <p>
+    <%= f.label :account_id %><br />
+    <%= f.select :account_id, @accounts %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.check_box :entry %> A Receber?
+  </p>
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.label :day_limit %><br />
+    <%= f.text_field :day_limit %>
+  </p>
+  <p>
+	<%=check_box_tag 'sem_data_final'%> Sem data final prevista.
+  </p>
+  <p>
+    <%= f.label :date_limit %><br />
+    <%= f.date_select :date_limit %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', drive_fixeds_path %>

@@ -1,0 +1,19 @@
+<div class="box">
+<h2>Editando Conta</h2>
+<div class="boxContent">
+<% form_for(@account) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit "Editar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Exibir', @account %> |
+<%= link_to 'Voltar', accounts_path %>
+</div>
+</div>

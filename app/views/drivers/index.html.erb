@@ -1,0 +1,32 @@
+<h1>Listing drivers</h1>
+
+<table>
+  <tr>
+    <th>Driver fixed</th>
+    <th>Value</th>
+    <th>Entry</th>
+    <th>Account</th>
+    <th>Date driver</th>
+    <th>Category</th>
+    <th>Title</th>
+  </tr>
+
+<% for driver in @drivers %>
+  <tr>
+    <td><%=h driver.driver_fixed_id %></td>
+    <td><%=h driver.value %></td>
+    <td><%=h driver.entry %></td>
+    <td><%=h driver.account_id %></td>
+    <td><%=h driver.date_driver %></td>
+    <td><%=h driver.category_id %></td>
+    <td><%=h driver.title %></td>
+    <td><%= link_to 'Show', driver %></td>
+    <td><%= link_to 'Edit', edit_driver_path(driver) %></td>
+    <td><%= link_to 'Destroy', driver, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New driver', new_driver_path %>

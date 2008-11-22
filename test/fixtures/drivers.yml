@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  driver_fixed_id: 1
+  value: 1.5
+  entry: false
+  account_id: 1
+  date_driver: 2008-11-11
+  category_id: 1
+  title: MyString
+
+two:
+  driver_fixed_id: 1
+  value: 1.5
+  entry: false
+  account_id: 1
+  date_driver: 2008-11-11
+  category_id: 1
+  title: MyString

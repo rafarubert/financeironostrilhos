@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  category_id: 1
+  account_id: 1
+  title: MyString
+  value: 1.5
+  day_limit: 1
+  date_limit: 2008-11-10
+
+two:
+  category_id: 1
+  account_id: 1
+  title: MyString
+  value: 1.5
+  day_limit: 1
+  date_limit: 2008-11-10

@@ -1,0 +1,23 @@
+<div class="box">
+<h2>Lista de Contas</h2>
+<div class="boxContent">
+<table>
+  <tr>
+    <th>Titulo</th>
+  </tr>
+
+<% for account in @accounts %>
+  <tr>
+    <td><%=h account.title %></td>
+    <td><%= link_to 'Exibir', account %></td>
+    <td><%= link_to 'Editar', edit_account_path(account) %></td>
+    <td><%= link_to 'Remover', account, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nova Conta', new_account_path %>
+</div>
+</div>
