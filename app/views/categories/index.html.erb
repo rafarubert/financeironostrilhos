@@ -2,13 +2,11 @@
 
 <table>
   <tr>
-    <th>User</th>
-    <th>Title</th>
+    <th>Categorias</th>
   </tr>
 
 <% for category in @categories %>
   <tr>
-    <td><%=h category.user_id %></td>
     <td><%=h category.title %></td>
     <td><%= link_to 'Show', category %></td>
     <td><%= link_to 'Edit', edit_category_path(category) %></td>

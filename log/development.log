@@ -12747,3 +12747,1531 @@ Rendering accounts/index
   [4;35;1mUser Load (0.015000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
   [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
 Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.01500 (24%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 19:42:10) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.015000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.01500 (19%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 19:42:11) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` [0m
+  [4;35;1mUser Columns (0.015000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 1) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.01500)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.03100)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.04700 (43%) | DB: 0.01500 (13%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 19:42:12) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.01600 (7%) | DB: 0.01600 (7%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 19:42:32) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03200 (41%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:41:15) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.031000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.016000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 1) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.04700 (59%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2008-11-22 20:41:18) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiUyOTMzYWU0
+NTE2M2ZhYzE1MTFkYTE5YmNkM2UzYzY5ZCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--386316303c11fa2012224c5031071aa8921d850b
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://127.0.0.1:3004/
+Completed in 0.04700 (21 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-11-22 20:41:19) [GET]
+  Session ID: BAh7BzoOcmV0dXJuX3RvMCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6
+Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiHllvdSBoYXZlIGJlZW4gbG9n
+Z2VkIG91dC4GOgpAdXNlZHsGOwdG--56d84bbdae7157c54b3aa138d112c5ca992c7248
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2008-11-22 20:41:21) [GET]
+  Session ID: BAh7CDoOcmV0dXJuX3RvMDoMY3NyZl9pZCIlNzkyMzE4MTA2ZTQwY2Q1ZDVi
+NDU4MzY4OTA3MDJmMzQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs
+YXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIh5Zb3UgaGF2ZSBiZWVuIGxvZ2dl
+ZCBvdXQuBjoKQHVzZWR7BjsIVA==--c828f1ce8771985e53b1f91ea8efcdbbdaeb7863
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2008-11-22 20:41:29) [POST]
+  Session ID: BAh7CDoOcmV0dXJuX3RvMDoMY3NyZl9pZCIlNzkyMzE4MTA2ZTQwY2Q1ZDVi
+NDU4MzY4OTA3MDJmMzQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs
+YXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--ba09eff28bc410028e45625f47151a0fbfe5f581
+  Parameters: {"user"=>{"password_confirmation"=>"servlet", "login"=>"santos", "password"=>"servlet", "email"=>"santos@hotmail.com"}, "commit"=>"Sign up", "authenticity_token"=>"b9bb1447758b53b470f333dd132068b09f2fa779", "action"=>"create", "controller"=>"users"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT `login` FROM `users` WHERE (`users`.login = 'santos') [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT `email` FROM `users` WHERE (`users`.email = 'santos@hotmail.com') [0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`name`, `salt`, `updated_at`, `crypted_password`, `remember_token_expires_at`, `remember_token`, `login`, `email`, `created_at`) VALUES('', 'df8aa8f50f95aa451a9d89fced74dedf8f087066', '2008-11-22 22:41:29', '1ebe234a2dd7b2c48421b1846a1388e052678dcd', NULL, NULL, 'santos', 'santos@hotmail.com', '2008-11-22 22:41:29')[0m
+  [4;35;1mSQL (0.016000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/
+Completed in 0.07800 (12 reqs/sec) | DB: 0.01600 (20%) | 302 Found [http://127.0.0.1/users]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-11-22 20:41:30) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiU3OTIzMTgx
+MDZlNDBjZDVkNWI0NTgzNjg5MDcwMmYzNCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiUlRoYW5rcyBm
+b3Igc2lnbmluZyB1cCEgIFdlJ3JlIHNlbmRpbmcgeW91IGFuIGVtYWlsIHdp
+dGggeW91ciBhY3RpdmF0aW9uIGNvZGUuBjoKQHVzZWR7BjsJRg==--31aaa43461cec2da7bf8d81d35331556fa9a935e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.04700 (74%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2008-11-22 20:41:33) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiU3OTIzMTgx
+MDZlNDBjZDVkNWI0NTgzNjg5MDcwMmYzNCIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiUlRoYW5rcyBm
+b3Igc2lnbmluZyB1cCEgIFdlJ3JlIHNlbmRpbmcgeW91IGFuIGVtYWlsIHdp
+dGggeW91ciBhY3RpdmF0aW9uIGNvZGUuBjoKQHVzZWR7BjsJVA==--47e27c368621d67124581c660017455a9bbfb873
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://127.0.0.1:3004/
+Completed in 0.04600 (21 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/logout]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-11-22 20:41:33) [GET]
+  Session ID: BAh7BzoOcmV0dXJuX3RvMCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6
+Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiHllvdSBoYXZlIGJlZW4gbG9n
+Z2VkIG91dC4GOgpAdXNlZHsGOwdG--56d84bbdae7157c54b3aa138d112c5ca992c7248
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (51%) | 200 OK [http://127.0.0.1/]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2008-11-22 20:41:37) [POST]
+  Session ID: BAh7CDoOcmV0dXJuX3RvMDoMY3NyZl9pZCIlM2ZlYTcwNTdmOGFmY2E2MWMy
+NzBmMWY2ZjUzYzQ4MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZs
+YXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIh5Zb3UgaGF2ZSBiZWVuIGxvZ2dl
+ZCBvdXQuBjoKQHVzZWR7BjsIVA==--6bf685b75daeba01bb4d7acb5a3f17745b7c5333
+  Parameters: {"authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"sessions", "password"=>"servlet", "login"=>"santos"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'santos') LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Cookie set: auth_token=; path=/
+Redirected to http://127.0.0.1:3004/
+Completed in 0.04700 (21 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/session]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-11-22 20:41:37) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiG0xvZ2dlZCBp
+biBzdWNjZXNzZnVsbHkGOgpAdXNlZHsGOwlG--63bdd8729bfbb7c9cca43347d4ee70ddf5adbba0
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.04700 (75%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:41:38) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiG0xvZ2dlZCBp
+biBzdWNjZXNzZnVsbHkGOgpAdXNlZHsGOwlU--3514a0c7d902a982f6b6b92e832f094ca4817204
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mAccount Load (0.031000)[0m   [0mSELECT * FROM `accounts` [0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.015000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.03200 (34%) | DB: 0.04600 (48%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:41:40) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:41:41) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` [0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.01500)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01500)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:42:38) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+
+
+NoMethodError (undefined method `accouts' for #<User:0x4510aa0>):
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/attribute_methods.rb:256:in `method_missing'
+    /app/controllers/drive_fixeds_controller.rb:5:in `index'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:282:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/command.rb:212:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:42:44) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+
+
+NoMethodError (undefined method `drive_fixeds' for #<Class:0x475adec>):
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:285:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:285:in `method_missing'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1852:in `with_scope'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_proxy.rb:168:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_proxy.rb:168:in `with_scope'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:281:in `method_missing'
+    /app/controllers/drive_fixeds_controller.rb:5:in `index'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:282:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/command.rb:212:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:43:05) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+
+
+NoMethodError (undefined method `drive_fixeds' for #<Class:0x48b13f8>):
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:285:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:285:in `method_missing'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1852:in `with_scope'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_proxy.rb:168:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_proxy.rb:168:in `with_scope'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/associations/association_collection.rb:281:in `method_missing'
+    /app/controllers/drive_fixeds_controller.rb:5:in `index'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:282:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/configurator.rb:281:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel/command.rb:212:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:45:10) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+Rendered drive_fixeds/_lista_gastos (0.00000)
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#filter_account (for 127.0.0.1 at 2008-11-22 20:45:13) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"filtrar", "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"filter_account", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( account_id = NULL) [0m
+Rendered drive_fixeds/_lista_gastos (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds/filter_account]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:45:15) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` [0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mUser Columns (0.015000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03200 (51%) | DB: 0.01500 (24%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:45:33) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing AccountsController#new (for 127.0.0.1 at 2008-11-22 20:45:36) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+Rendering template within layouts/application
+Rendering accounts/new
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.04700 (24%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/accounts/new]
+
+
+Processing AccountsController#create (for 127.0.0.1 at 2008-11-22 20:45:39) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Cadastrar", "account"=>{"title"=>"BB"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Create (0.000000)[0m   [0;1mINSERT INTO `accounts` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:45:39', 'BB', 3, '2008-11-22 22:45:39')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/accounts/5
+Completed in 0.06200 (16 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/accounts]
+
+
+Processing AccountsController#show (for 127.0.0.1 at 2008-11-22 20:45:39) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJkFjY291bnQg
+d2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CUY=--3833182ef0ca6fb413010270327d009ee86909b3
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering accounts/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03200 (41%) | DB: 0.01500 (19%) | 200 OK [http://127.0.0.1/accounts/5]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:45:40) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJkFjY291bnQg
+d2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CVQ=--9590a56784ab3c05f9fa5aef8f555e0743a9f563
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.03100 (32%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing AccountsController#edit (for 127.0.0.1 at 2008-11-22 20:45:42) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"edit", "id"=>"5", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering accounts/edit
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/accounts/5/edit]
+
+
+Processing AccountsController#update (for 127.0.0.1 at 2008-11-22 20:45:48) [PUT]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Editar", "account"=>{"title"=>"Banco do Brasil"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "_method"=>"put", "action"=>"update", "id"=>"5", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 5) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Update (0.000000)[0m   [0;1mUPDATE `accounts` SET `title` = 'Banco do Brasil', `updated_at` = '2008-11-22 22:45:48' WHERE `id` = 5[0m
+  [4;35;1mSQL (0.015000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/accounts/5
+Completed in 0.04700 (21 reqs/sec) | DB: 0.01500 (31%) | 302 Found [http://127.0.0.1/accounts/5]
+
+
+Processing AccountsController#show (for 127.0.0.1 at 2008-11-22 20:45:48) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJkFjY291bnQg
+d2FzIHN1Y2Nlc3NmdWxseSB1cGRhdGVkLgY6CkB1c2VkewY7CUY=--b653ef5a3dc634fc91e4c68e84a6d12532448c49
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"accounts"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering accounts/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/accounts/5]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:45:50) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJkFjY291bnQg
+d2FzIHN1Y2Nlc3NmdWxseSB1cGRhdGVkLgY6CkB1c2VkewY7CVQ=--ec395fb2b75e69a619a9a853ed97630ac0e121ab
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:45:51) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:45:53) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:45:56) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Almoço"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.015000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mCategory Create (0.000000)[0m   [0;1mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:45:56', 'Almoço', 3, '2008-11-22 22:45:56')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/4
+Completed in 0.06200 (16 reqs/sec) | DB: 0.01500 (24%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:45:56) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.04700 (74%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories/4]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:45:58) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:45:59) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:46:01) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Carro"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.016000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mCategory Create (0.000000)[0m   [0;1mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:46:02', 'Carro', 3, '2008-11-22 22:46:02')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/5
+Completed in 0.17200 (5 reqs/sec) | DB: 0.03200 (18%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:46:02) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.016000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.015000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 5) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.03100 (39%) | 200 OK [http://127.0.0.1/categories/5]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:03) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:46:05) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.016000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.03100 (18%) | DB: 0.01600 (9%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:46:07) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Remedio"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mCategory Create (0.000000)[0m   [0;1mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:46:07', 'Remedio', 3, '2008-11-22 22:46:07')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/6
+Completed in 0.06200 (16 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:46:07) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.`id` = 6) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/categories/6]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:09) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;36;1mCategory Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03100 (50%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:46:09) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mAccount Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+Rendered drive_fixeds/_lista_gastos (0.00000)
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#filter_account (for 127.0.0.1 at 2008-11-22 20:46:12) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"filtrar", "contas"=>"5", "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"filter_account", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( account_id = '5') [0m
+Rendered drive_fixeds/_lista_gastos (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds/filter_account]
+
+
+Processing DriveFixedsController#new (for 127.0.0.1 at 2008-11-22 20:46:15) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Columns (0.015000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+Rendering template within layouts/application
+Rendering drive_fixeds/new
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (19%) | 200 OK [http://127.0.0.1/drive_fixeds/new]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:46:23) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+Rendered drive_fixeds/_lista_gastos (0.00000)
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:25) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:46:27) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01500 (19%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:46:30) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Salario"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mCategory Create (0.000000)[0m   [0mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:46:30', 'Salario', 3, '2008-11-22 22:46:30')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/7
+Completed in 0.06300 (15 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:46:30) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.015000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.016000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 7) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.03100 (50%) | 200 OK [http://127.0.0.1/categories/7]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:32) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:46:33) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;36;1mUser Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:46:37) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Freelancer"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mCategory Create (0.000000)[0m   [0mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:46:37', 'Freelancer', 3, '2008-11-22 22:46:37')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/8
+Completed in 0.15600 (6 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:46:37) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.015000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 8) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.03100 (49%) | 200 OK [http://127.0.0.1/categories/8]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:38) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#new (for 127.0.0.1 at 2008-11-22 20:46:40) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+Rendering template within layouts/application
+Rendering categories/new
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories/new]
+
+
+Processing CategoriesController#create (for 127.0.0.1 at 2008-11-22 20:46:43) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "category"=>{"title"=>"Aposentadoria"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.016000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mCategory Create (0.000000)[0m   [0mINSERT INTO `categories` (`updated_at`, `title`, `user_id`, `created_at`) VALUES('2008-11-22 22:46:44', 'Aposentadoria', 3, '2008-11-22 22:46:44')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/categories/9
+Completed in 0.06200 (16 reqs/sec) | DB: 0.01600 (25%) | 302 Found [http://127.0.0.1/categories]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2008-11-22 20:46:44) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlG--d80e2d326095bd15ba7db3a48527277775a883aa
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"categories"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`id` = 9) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;35;1mUser Columns (0.015000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03200 (51%) | DB: 0.01500 (24%) | 200 OK [http://127.0.0.1/categories/9]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:46:45) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiJ0NhdGVnb3J5
+IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwlU--44f00892e156faac2a739150d459cf023f68e8f8
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:46:47) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+Rendered drive_fixeds/_lista_gastos (0.00000)
+  [4;36;1mDriveFixed Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (19%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#new (for 127.0.0.1 at 2008-11-22 20:46:48) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mAccount Load (0.015000)[0m   [0;1mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+Rendering template within layouts/application
+Rendering drive_fixeds/new
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.01500 (15%) | 200 OK [http://127.0.0.1/drive_fixeds/new]
+
+
+Processing DriveFixedsController#create (for 127.0.0.1 at 2008-11-22 20:47:06) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "drive_fixed"=>{"date_limit(1i)"=>"2008", "account_id"=>"5", "title"=>"Manutenção", "date_limit(2i)"=>"11", "date_limit(3i)"=>"22", "category_id"=>"5", "value"=>"300", "day_limit"=>"12", "entry"=>"0"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"drive_fixeds", "sem_data_final"=>"1"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mDriveFixed Create (0.000000)[0m   [0;1mINSERT INTO `drive_fixeds` (`updated_at`, `account_id`, `title`, `date_limit`, `category_id`, `value`, `day_limit`, `entry`, `created_at`) VALUES('2008-11-22 22:47:06', 5, 'Manutenção', NULL, 5, 300.0, 12, 0, '2008-11-22 22:47:06')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/drive_fixeds/19
+Completed in 0.03100 (32 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#show (for 127.0.0.1 at 2008-11-22 20:47:06) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiKURyaXZlRml4
+ZWQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CUY=--d0ab282ef771880ca83caaf8f954795c0ce71a5a
+  Parameters: {"action"=>"show", "id"=>"19", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE (`drive_fixeds`.`id` = 19) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/show
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/drive_fixeds/19]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:47:09) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiKURyaXZlRml4
+ZWQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CVQ=--cc7bb6c98d60f8cbee897df8f380bd28c8afb03f
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01500)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01500 (19%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#new (for 127.0.0.1 at 2008-11-22 20:47:13) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"new", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mCategory Load (0.000000)[0m   [0mSELECT * FROM `categories` WHERE (user_id = 3) [0m
+  [4;36;1mCategory Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `categories`[0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+Rendering template within layouts/application
+Rendering drive_fixeds/new
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01500 (19%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/drive_fixeds/new]
+
+
+Processing DriveFixedsController#create (for 127.0.0.1 at 2008-11-22 20:47:42) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"Create", "drive_fixed"=>{"date_limit(1i)"=>"2008", "account_id"=>"5", "title"=>"Aposentadoria do Governo", "date_limit(2i)"=>"11", "date_limit(3i)"=>"22", "category_id"=>"9", "value"=>"2000", "day_limit"=>"10", "entry"=>"1"}, "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"create", "controller"=>"drive_fixeds", "sem_data_final"=>"1"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mDriveFixed Create (0.000000)[0m   [0mINSERT INTO `drive_fixeds` (`updated_at`, `account_id`, `title`, `date_limit`, `category_id`, `value`, `day_limit`, `entry`, `created_at`) VALUES('2008-11-22 22:47:42', 5, 'Aposentadoria do Governo', NULL, 9, 2000.0, 10, 1, '2008-11-22 22:47:42')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://127.0.0.1:3004/drive_fixeds/20
+Completed in 0.03200 (31 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#show (for 127.0.0.1 at 2008-11-22 20:47:42) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiKURyaXZlRml4
+ZWQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CUY=--d0ab282ef771880ca83caaf8f954795c0ce71a5a
+  Parameters: {"action"=>"show", "id"=>"20", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE (`drive_fixeds`.`id` = 20) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/show
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/drive_fixeds/20]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:47:44) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsGOgtub3RpY2UiKURyaXZlRml4
+ZWQgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVkLgY6CkB1c2VkewY7CVQ=--cc7bb6c98d60f8cbee897df8f380bd28c8afb03f
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.01500)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01500)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing DriveFixedsController#filter_account (for 127.0.0.1 at 2008-11-22 20:47:51) [POST]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"commit"=>"filtrar", "contas"=>"5", "authenticity_token"=>"3de5f78bd23462bb68fafc3ced5867fd1e3fa179", "action"=>"filter_account", "controller"=>"drive_fixeds"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( account_id = '5') [0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.01600)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01600)
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/drive_fixeds/filter_account]
+
+
+Processing CaixasController#index (for 127.0.0.1 at 2008-11-22 20:47:55) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"caixas"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on account_id = a.id WHERE ( user_id = 3) [0m
+Rendering template within layouts/application
+Rendering caixas/index
+  [4;36;1mAccount Load (0.000000)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;35;1mAccount Columns (0.000000)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.01600)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01600)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/caixas]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:47:57) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.01600 (20%) | 200 OK [http://127.0.0.1/accounts]
+
+
+Processing DriveFixedsController#index (for 127.0.0.1 at 2008-11-22 20:47:59) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"drive_fixeds"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT `drive_fixeds`.* FROM `drive_fixeds` inner join accounts as a on a.id = account_id WHERE (user_id = 3) [0m
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (user_id = 3) [0m
+Rendering template within layouts/application
+Rendering drive_fixeds/index
+  [4;36;1mAccount Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.016000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Rendered drive_fixeds/_driver_fixed (0.01600)
+Rendered drive_fixeds/_driver_fixed (0.00000)
+Rendered drive_fixeds/_lista_gastos (0.01600)
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://127.0.0.1/drive_fixeds]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2008-11-22 20:48:00) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"categories"}
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mUser Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.000000)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering categories/index
+  [4;36;1mCategory Load (0.000000)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.user_id = 3) [0m
+  [4;35;1mCategory Columns (0.000000)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mDriveFixed Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.17100 (5 reqs/sec) | Rendering: 0.01500 (8%) | DB: 0.00000 (0%) | 200 OK [http://127.0.0.1/categories]
+
+
+Processing AccountsController#index (for 127.0.0.1 at 2008-11-22 20:48:02) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkIOgxjc3JmX2lkIiUzZmVhNzA1
+N2Y4YWZjYTYxYzI3MGYxZjZmNTNjNDgyOSIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--ae6de132648cf7cdec7b02bcefdb2bf2fad0a312
+  Parameters: {"action"=>"index", "controller"=>"accounts"}
+  [4;35;1mDriveFixed Load (0.000000)[0m   [0mSELECT * FROM `drive_fixeds` WHERE ( entry = 0) ORDER BY day_limit LIMIT 5[0m
+  [4;36;1mDriveFixed Load (0.000000)[0m   [0;1mSELECT * FROM `drive_fixeds` WHERE ( entry = 1) ORDER BY day_limit LIMIT 5[0m
+  [4;35;1mUser Columns (0.015000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.000000)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 3) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering accounts/index
+  [4;35;1mAccount Load (0.000000)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.user_id = 3) [0m
+  [4;36;1mAccount Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mDriveFixed Columns (0.000000)[0m   [0mSHOW FIELDS FROM `drive_fixeds`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03100 (49%) | 200 OK [http://127.0.0.1/accounts]

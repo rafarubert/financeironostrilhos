@@ -2,7 +2,9 @@ class DriveFixedsController < ApplicationController
   # GET /drive_fixeds
   # GET /drive_fixeds.xml
   def index
-    @drive_fixeds = DriveFixed.find(:all)
+    @drive_fixeds = DriveFixed.find(:all, 
+                                    :joins=>" inner join accounts as a on a.id = account_id",
+                                    :conditions=>["user_id = ?",self.current_user.id])
     @contas = Account.find(:all, :conditions=>["user_id = ?", self.current_user.id])
     respond_to do |format|
       format.html # index.html.erb
